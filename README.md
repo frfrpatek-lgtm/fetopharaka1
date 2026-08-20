@@ -48,7 +48,7 @@ login once Identity/Git Gateway are enabled on the linked site.
 
 ## Managing content
 
-Log in at `https://www.fetop.co.ke/admin` with an email/password Netlify
+Log in at `https://www.fetopharaka.netlify.app/admin` with an email/password Netlify
 Identity account (invited from the Netlify dashboard under
 **Project configuration → Identity**, with **Git Gateway** enabled).
 
