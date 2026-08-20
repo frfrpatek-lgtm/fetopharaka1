@@ -1,0 +1,78 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "images/products"
+public_folder: "/images/products"
+
+site_url: https://www.fetop.co.ke
+display_url: https://www.fetop.co.ke
+logo_url: /images/logo/logo.png
+
+locale: "en"
+
+collections:
+  - name: "site_media"
+    label: "Site Images (Logo / Hero / About)"
+    files:
+      - file: "content/_site-media-note.json"
+        name: "site_media_note"
+        label: "Logo, Hero & About Photo"
+        description: >
+          These three images use fixed filenames so they appear automatically
+          in the navigation bar, footer, homepage hero and About page. Before
+          uploading here, rename your file on your computer to exactly:
+          logo.png (nav/footer logo), hero.jpg (homepage hero background), or
+          about.jpg (About page photo). Then upload it below — it will replace
+          the existing file and go live on the next publish.
+        fields:
+          - { label: "Company Logo (rename file to logo.png before upload)", name: "logo", widget: "image", media_folder: "/images/logo", public_folder: "/images/logo", required: false, hint: "Upload as logo.png. Appears in the nav bar and footer." }
+          - { label: "Homepage Hero Background (rename file to hero.jpg before upload)", name: "hero", widget: "image", media_folder: "/images/hero", public_folder: "/images/hero", required: false, hint: "Upload as hero.jpg. Used as the homepage hero background." }
+          - { label: "About Page Photo (rename file to about.jpg before upload)", name: "about", widget: "image", media_folder: "/images/about", public_folder: "/images/about", required: false, hint: "Upload as about.jpg. Appears on the About Us page." }
+
+  - name: "products"
+    label: "Products"
+    files:
+      - file: "content/products.json"
+        name: "products"
+        label: "Products List"
+        description: "Edit, add, remove or reorder products shown on the Home and Products pages. Leave the price blank if you are not ready to publish it yet."
+        fields:
+          - label: "Products"
+            name: "products"
+            widget: "list"
+            summary: "{{fields.name}} — {{fields.category}}"
+            fields:
+              - { label: "Product Name", name: "name", widget: "string", required: true }
+              - label: "Category"
+                name: "category"
+                widget: "select"
+                required: true
+                options: ["Garments", "Accessories", "Corporate"]
+              - { label: "Description", name: "description", widget: "text", required: true }
+              - { label: "Price (leave blank if not set)", name: "price", widget: "string", required: false, default: "" }
+              - { label: "Product Image", name: "image", widget: "image", media_folder: "/images/products", public_folder: "/images/products", required: false }
+              - { label: "Featured on Homepage", name: "featured", widget: "boolean", default: true }
+
+  - name: "testimonials"
+    label: "Testimonials"
+    files:
+      - file: "content/testimonials.json"
+        name: "testimonials"
+        label: "Testimonials List"
+        description: "Add, edit or delete client testimonials shown on the Home page."
+        fields:
+          - label: "Testimonials"
+            name: "testimonials"
+            widget: "list"
+            summary: "{{fields.name}} — {{fields.company}}"
+            fields:
+              - { label: "Client Name", name: "name", widget: "string", required: true }
+              - { label: "Company Name", name: "company", widget: "string", required: false }
+              - { label: "Testimonial Text", name: "text", widget: "text", required: true }
+              - label: "Star Rating"
+                name: "rating"
+                widget: "select"
+                required: true
+                options: [3, 4, 5]
+                default: 5

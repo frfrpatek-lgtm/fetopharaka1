@@ -1,0 +1,68 @@
+{
+  "products": [
+    {
+      "name": "Polo T-Shirts",
+      "category": "Garments",
+      "description": "Premium polo shirts available in multiple colors for corporate teams and institutions. Bulk orders with custom logo branding.",
+      "price": "",
+      "image": "https://placehold.co/800x600/f0f7ff/0d5c8a?font=roboto&text=Polo+T-Shirts",
+      "featured": true
+    },
+    {
+      "name": "Roundneck T-Shirts",
+      "category": "Garments",
+      "description": "Classic roundneck t-shirts perfect for staff uniforms and team wear. Available in multiple colors and sizes.",
+      "price": "",
+      "image": "https://placehold.co/800x600/f0f7ff/0d5c8a?font=roboto&text=Roundneck+T-Shirts",
+      "featured": true
+    },
+    {
+      "name": "Dotted Polos",
+      "category": "Garments",
+      "description": "Unique waffle knit polo shirts that give your team a distinctive and premium look. Perfect for corporate branding.",
+      "price": "",
+      "image": "https://placehold.co/800x600/f0f7ff/0d5c8a?font=roboto&text=Dotted+Polos",
+      "featured": true
+    },
+    {
+      "name": "Dotted Round-necks",
+      "category": "Garments",
+      "description": "Premium waffle knit roundneck t-shirts with unique dotted texture. Comfortable and stylish for any team.",
+      "price": "",
+      "image": "https://placehold.co/800x600/f0f7ff/0d5c8a?font=roboto&text=Dotted+Round-necks",
+      "featured": true
+    },
+    {
+      "name": "Vests",
+      "category": "Garments",
+      "description": "Durable workwear vests perfect for field teams, outdoor staff and industrial teams. Available in multiple colors.",
+      "price": "",
+      "image": "https://placehold.co/800x600/f0f7ff/0d5c8a?font=roboto&text=Vests",
+      "featured": true
+    },
+    {
+      "name": "Caps",
+      "category": "Accessories",
+      "description": "Branded caps to complete your team's uniform and corporate look. Custom logo printing available.",
+      "price": "",
+      "image": "https://placehold.co/800x600/f0f7ff/0d5c8a?font=roboto&text=Caps",
+      "featured": true
+    },
+    {
+      "name": "Notebooks",
+      "category": "Corporate",
+      "description": "Branded corporate notebooks perfect for staff onboarding, conferences and client gifting. Custom logo printing available.",
+      "price": "",
+      "image": "https://placehold.co/800x600/f0f7ff/0d5c8a?font=roboto&text=Notebooks",
+      "featured": false
+    },
+    {
+      "name": "Corporate Gifts",
+      "category": "Corporate",
+      "description": "A curated range of branded corporate gift items for staff appreciation, client relations and company events.",
+      "price": "",
+      "image": "https://placehold.co/800x600/f0f7ff/0d5c8a?font=roboto&text=Corporate+Gifts",
+      "featured": false
+    }
+  ]
+}

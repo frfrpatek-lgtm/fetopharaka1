@@ -1,0 +1,22 @@
+{
+  "testimonials": [
+    {
+      "name": "James Mwangi",
+      "company": "Riverside Academy",
+      "text": "Fetop Haraka Limited supplied our entire staff uniform order on time and the quality of the fabric exceeded our expectations. Highly recommended for bulk orders.",
+      "rating": 5
+    },
+    {
+      "name": "Grace Achieng",
+      "company": "Amani Health Foundation",
+      "text": "Professional service from start to finish. Our branded polos looked fantastic and the delivery across counties was fast and reliable.",
+      "rating": 5
+    },
+    {
+      "name": "Peter Otieno",
+      "company": "Zawadi Logistics Ltd",
+      "text": "We have ordered our corporate wear from Fetop Haraka Limited for three years running. Consistent quality and great customer service every time.",
+      "rating": 5
+    }
+  ]
+}
