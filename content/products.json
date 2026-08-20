@@ -47,22 +47,7 @@
       "price": "",
       "image": "https://placehold.co/800x600/f0f7ff/0d5c8a?font=roboto&text=Caps",
       "featured": true
-    },
-    {
-      "name": "Notebooks",
-      "category": "Corporate",
-      "description": "Branded corporate notebooks perfect for staff onboarding, conferences and client gifting. Custom logo printing available.",
-      "price": "",
-      "image": "https://placehold.co/800x600/f0f7ff/0d5c8a?font=roboto&text=Notebooks",
-      "featured": false
-    },
-    {
-      "name": "Corporate Gifts",
-      "category": "Corporate",
-      "description": "A curated range of branded corporate gift items for staff appreciation, client relations and company events.",
-      "price": "",
-      "image": "https://placehold.co/800x600/f0f7ff/0d5c8a?font=roboto&text=Corporate+Gifts",
-      "featured": false
+      
     }
   ]
 }
