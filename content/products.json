@@ -5,7 +5,7 @@
       "category": "Garments",
       "description": "Premium polo shirts available in multiple colors for corporate teams and institutions. Bulk orders with custom logo branding.",
       "price": "",
-      "image": "https://placehold.co/800x600/f0f7ff/0d5c8a?font=roboto&text=Polo+T-Shirts",
+      "image": "/images/products/whatsapp-image-2026-07-25-at-13.19.44-3-.jpeg",
       "featured": true
     },
     {
@@ -47,7 +47,6 @@
       "price": "",
       "image": "https://placehold.co/800x600/f0f7ff/0d5c8a?font=roboto&text=Caps",
       "featured": true
-      
     }
   ]
 }
