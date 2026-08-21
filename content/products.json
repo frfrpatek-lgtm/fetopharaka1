@@ -31,22 +31,6 @@
       "price": "",
       "image": "https://placehold.co/800x600/f0f7ff/0d5c8a?font=roboto&text=Dotted+Round-necks",
       "featured": true
-    },
-    {
-      "name": "Vests",
-      "category": "Garments",
-      "description": "Durable workwear vests perfect for field teams, outdoor staff and industrial teams. Available in multiple colors.",
-      "price": "",
-      "image": "https://placehold.co/800x600/f0f7ff/0d5c8a?font=roboto&text=Vests",
-      "featured": true
-    },
-    {
-      "name": "Caps",
-      "category": "Accessories",
-      "description": "Branded caps to complete your team's uniform and corporate look. Custom logo printing available.",
-      "price": "",
-      "image": "https://placehold.co/800x600/f0f7ff/0d5c8a?font=roboto&text=Caps",
-      "featured": true
     }
   ]
 }
